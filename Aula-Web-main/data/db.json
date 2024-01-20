@@ -1,0 +1,28 @@
+{
+  "cadastro": [
+    {
+      "produto": "Queijo Minas",
+      "fabricante": "Fazenda Leitinho",
+      "cidade": "Juiz de Fora",
+      "id": 1
+    },
+    {
+      "produto": "Goiabada",
+      "fabricante": "Fazenda Ze Mane",
+      "cidade": "Barbacena",
+      "id": 2
+    },
+    {
+      "produto": "Doce de leite",
+      "fabricante": "Borboleta",
+      "cidade": "Santos Dumont",
+      "id": 3
+    },
+    {
+      "produto": "Queijo Muçarela",
+      "fabricante": "Sitio do Zezinho",
+      "cidade": "Lima Duarte",
+      "id": 4
+    }
+  ]
+}
