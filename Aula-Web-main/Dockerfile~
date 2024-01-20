@@ -1,4 +1,3 @@
-
 # Use a imagem oficial do Nginx como base
 FROM nginx
 
