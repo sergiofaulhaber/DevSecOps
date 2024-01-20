@@ -12,7 +12,7 @@ cd Aula-Web-Main
 
 docker build -t <nome-imagem-nginx> .
 
-docker run -d - p 80:80 <nome-imagem-nginx>
+docker run -d - p 80:80 -p 443:443 <nome-imagem-nginx>
 
 
 Pra ver a home page  http://localhost
