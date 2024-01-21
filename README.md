@@ -1,6 +1,7 @@
 # DevSecOps
 
 cd json
+
 docker build -t <nome-imagem-json> .
 
 docker run -d -p 3000:80  <nome-imagem-json>
