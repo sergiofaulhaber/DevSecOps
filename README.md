@@ -1,16 +1,17 @@
 
 cd json
 
-docker build -t (nome da imagem) .
+docker build -t json .
 
-docker run -d --rm -p 3000:3000 (nome da imagem)
+docker run -d --rm -p 3000:80
 
 cd ..
 
 cd Aula-Web-main
 
-docker build -t (nome da imagem) .
+docker build -t nginx .
 
-docker run -d --rm -p 443:443  (nome da imagem) 
+docker run -d --rm -p 443:443  nginx
 
 https://localhost
+
