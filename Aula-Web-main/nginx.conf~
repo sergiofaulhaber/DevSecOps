@@ -1,10 +1,17 @@
 server {
+<<<<<<< HEAD
     listen 443 ssl;
     server_name localhost;
+=======
+    listen 80;
+    listen 443 ssl;
+    server_name example.com;
+>>>>>>> d400c641d7a67f0961c513f81485519e5208b9bd
 
     ssl_certificate /etc/nginx/ssl/nginx-selfsigned.crt;
     ssl_certificate_key /etc/nginx/ssl/nginx-selfsigned.key;
 
+<<<<<<< HEAD
     # Melhorias SSL
     ssl_protocols TLSv1.2 TLSv1.3; # Somente protocolos seguros
     ssl_ciphers 'EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH'; # Cifras fortes
