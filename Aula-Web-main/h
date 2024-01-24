@@ -1,0 +1,4 @@
+docker run -v /var/run/docker.sock:/var/run/docker.sock \
+        -v $(pwd):./
+        horuszup/horusec-cli:latest horusec start -p="./" -e="true"
+#horusec start -p /src/horusec -P $(pwd) --config-file-path=/src/horusec/horusec-config.json
