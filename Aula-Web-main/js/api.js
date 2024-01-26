@@ -44,3 +44,24 @@ async function deleteUser(id, produto) {
 
   return data;
 }
+
+// Função para realizar uma requisição POST para o endpoint de cadastro de usuário
+async function cadastrarUsuario(usuario) {
+  try {
+    const response = await fetch(`${BASE_URL}/cadastro`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(usuario),
+    });
+
+    const data = await response.json();
+    alert(`Usuário ${data.username} cadastrado com sucesso`);
+    return data;
+  } catch (error) {
+    console.error("Erro ao cadastrar usuário:", error);
+    throw error;
+  }
+}
+
