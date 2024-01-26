@@ -1,20 +1,17 @@
-# DevSecOps
 
 cd json
 
-docker build -t nome-imagem-json .
+docker build -t json .
 
-docker run -d -p 3000:80  nome-imagem-json
-
+docker run -d --rm -p 3000:80 json
 
 cd ..
 
-cd Aula-Web-Main
+cd Aula-Web-main
 
-docker build -t nome-imagem-nginx .
+docker build -t nginx .
 
-docker run -d -p 80:80 -p 443:443 nome-imagem-nginx
+docker run -d --rm -p 80:80 -p 443:443  nginx
 
-
-Pra ver a home page  http://localhost
+https://localhost
 
