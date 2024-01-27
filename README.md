@@ -1,17 +1,29 @@
 
+Instruções para instalação do sistema 
+
+git clone https://github.com/sergiofaulhaber/DevSecOps.git
+
+# Diretório onde esta armazenado o JSON SERVER
 cd json
 
 docker build -t json .
 
-docker run -d --rm -p 3000:80 json
-
 cd ..
+
+#Diretório armazenamento aplicação e configuração NGINX 
 
 cd Aula-Web-main
 
 docker build -t nginx .
 
-docker run -d --rm -p 80:80 -p 443:443  nginx
+cd ..
 
-https://localhost
+# Executar o docker-composer
+
+docker-compose up -d 
+
+# Para acessar o sistema
+
+https://localhost 
+
 
