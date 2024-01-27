@@ -10,7 +10,7 @@ docker build -t json .
 
 cd ..
 
-#Diretório armazenamento aplicação e configuração NGINX 
+# Diretório armazenamento aplicação e configuração NGINX 
 
 cd Aula-Web-main
 
